@@ -104,3 +104,9 @@ header a{
   font-size: 60px;
   font-weight:500;
 }
+
+.claim button{
+  margin-top: 40px;
+  padding: 25px;
+  font-size: 16px;
+}
