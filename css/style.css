@@ -5,6 +5,45 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* Bottoni */
+
+button{
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-green{
+  border: none;
+  background-color: #7cbb02;
+  padding: 5px 10px;
+}
+
+.button-white{
+  border: 1px solid white;
+  background-color: #0c325a;
+  padding: 5px 30px;
+  margin-right: 5%;
+}
+
+
+
+/* Header */
+
+header::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header{
+  height: 100%;
+  background-color: #0c325a;
+  color:#fff;
+
+}
+
 header li{
   list-style: none;
   display: inline-block;
@@ -12,47 +51,13 @@ header li{
   padding-right: 25px;
 }
 
-.button-green{
-  border: none;
-  border-radius: 5px;
-  background-color: #7cbb02;
-  padding: 5px 10px;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.button-white{
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #0c325a;
-  padding: 5px 30px;
-  margin-right: 5%;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-
-header::after{
-  content: "";
-  display: block;
-  clear: both;
-
-}
-
-header{
-  height: 400px;
-  background-color: #0c325a;
-  color:#fff;
-
-}
-
 header a{
   color:#fff;
   font-size: 13px;
   text-decoration: none;
 }
+
+/* Header top */
 
 .header-top{
   margin:0 10%;
@@ -68,13 +73,34 @@ header a{
 
 .header-nav{
   float: left;
-  width: 55%;
+  width: 50%;
 }
-
-
 
 .nav-top-left{
   float: left;
-  height: 30px;
-  width: 30%;
+  /* height: 30px; */
+  width: 35%;
+}
+
+/* Header centrale */
+
+#header-main{
+  display: block;
+  height: 500px;
+  margin-top: 120px;
+  background-image: url(../img/background-header.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.claim{
+  padding-top: 5%;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.claim h1{
+  font-size: 60px;
+  font-weight:500;
 }
