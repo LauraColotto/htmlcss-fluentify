@@ -110,3 +110,25 @@ header a{
   padding: 25px;
   font-size: 16px;
 }
+
+/* Sezione grigia */
+
+#sottotitolo{
+  width: 100%;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+#sottotitolo h2{
+  font-weight:500;
+  font-size: 35px;
+  padding-top: 2%;
+
+}
+
+#sottotitolo h3{
+  color: #929292;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 8px 0 2%;
+}
