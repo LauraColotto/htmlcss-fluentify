@@ -26,7 +26,12 @@ h4{
 
 p{
   color: #9e9e9e;
-  line-height: 24px;
+  line-height: 35px;
+  font-size: 22px;
+}
+
+input{
+  display: inline-block;
 }
 
 /* Bottoni */
@@ -218,7 +223,49 @@ header a{
 
 /* Footer */
 
+footer::after{
+  content: "";
+  display: block;
+  clear:both;
+}
+
 footer{
   padding: 80px 10%;
   background-color: #d3d3d3;
+}
+
+/* .col-split-left2{
+  float: left;
+  width: 50%;
+  padding: 0 5%;
+} */
+
+.col-split-right2{
+  float: left;
+  margin-top:20px;
+  width: 50%;
+  padding: 0 5%;
+}
+
+
+.col-split-right2 input{
+  display: inline-block;
+}
+
+.col-split-right2 p{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.innercol{
+  float:left;
+  width: 50%;
+}
+
+.innercol button{
+  display: block;
+  margin: 0 auto 2%;
+  padding: 25px 20px;
+  font-size: 22px;
+  text-align: center;
 }
