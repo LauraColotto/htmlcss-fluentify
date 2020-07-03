@@ -41,6 +41,8 @@ button{
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
 }
 
 .button-green{
@@ -51,12 +53,17 @@ button{
 
 .button-white{
   border: 1px solid white;
-  background-color: #0c325a;
+  background-color: transparent;
   padding: 5px 30px;
   margin-right: 5%;
 }
 
+/* Container principale */
 
+.container{
+  width: 80%;
+  margin: auto;
+}
 
 /* Header */
 
@@ -76,21 +83,21 @@ header{
 header li{
   list-style: none;
   display: inline-block;
-  margin: 2% 0 0;
   padding-right: 25px;
 }
 
 header a{
   color:#fff;
-  font-size: 13px;
+  font-size: 16px;
   text-decoration: none;
 }
 
 /* Header top */
 
 .header-top{
-  margin:0 10%;
-  padding-top: 1%;
+  height: 70px;
+  line-height: 70px;
+  padding-top: 2%;
   text-transform: uppercase;
 }
 
@@ -105,11 +112,16 @@ header a{
   width: 50%;
 }
 
-.nav-top-left{
+.nav-top-right{
   float: left;
+  text-align: right;
   width: 35%;
 }
 
+.header-top img{
+  vertical-align:middle;
+  margin-bottom: 10px;
+}
 /* Header centrale */
 
 #header-main{
@@ -230,15 +242,9 @@ footer::after{
 }
 
 footer{
-  padding: 80px 10%;
+  padding: 80px;
   background-color: #d3d3d3;
 }
-
-/* .col-split-left2{
-  float: left;
-  width: 50%;
-  padding: 0 5%;
-} */
 
 .col-split-right2{
   float: left;
